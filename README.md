@@ -2,8 +2,10 @@
 A dark theme for the [Airline](https://github.com/vim-airline/vim-airline) Vim plugin.
 
 ## Preview
+Note: the middle section will be whatever colour your terminal's background is.
+
 ![Arclight Theme](https://raw.github.com/Chris-1101/vim-arclight/master/preview.png)
-Note: this theme only changes Airline's colours. The preview above shows my personal setup which also modifies the contents of certain sections. If you're interested, refer to the bottom of my [.vimrc](https://github.com/Chris-1101/dotfiles/blob/148549c90348e69eba65c9d0694e6176e4bf453c/vimrc) for the relevant config.
+ps: this theme only changes Airline's colours. The preview above shows my personal setup which also modifies the contents of certain sections. If you're interested, refer to the bottom of my [.vimrc](https://github.com/Chris-1101/dotfiles/blob/148549c90348e69eba65c9d0694e6176e4bf453c/vimrc) for the relevant config.
 
 ## Installation
 #### Using a Vim Plugin Manager
