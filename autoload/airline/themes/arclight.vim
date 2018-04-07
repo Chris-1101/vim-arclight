@@ -43,16 +43,16 @@ let s:InactiveBY = [ '#afafaf' , '#303030' , 145 , 236 ]
 let s:InactiveCX = [ '#d1d9e8' , '#444444' , 7   , 238 ]
 
 " Generate Colour Palette
-let g:airline#themes#dark#palette          = {}
-let g:airline#themes#dark#palette.normal   = airline#themes#generate_color_map(s:NormalAZ, s:NormalBY, s:NormalCX)
-let g:airline#themes#dark#palette.insert   = airline#themes#generate_color_map(s:InsertAZ, s:InsertBY, s:InsertCX)
-let g:airline#themes#dark#palette.visual   = airline#themes#generate_color_map(s:VisualAZ, s:VisualBY, s:VisualCX)
-let g:airline#themes#dark#palette.replace  = airline#themes#generate_color_map(s:ReplaceAZ, s:ReplaceBY, s:ReplaceCX)
-let g:airline#themes#dark#palette.inactive = airline#themes#generate_color_map(s:InactiveAZ, s:InactiveBY, s:InactiveCX)
+let g:airline#themes#arclight#palette          = {}
+let g:airline#themes#arclight#palette.normal   = airline#themes#generate_color_map(s:NormalAZ, s:NormalBY, s:NormalCX)
+let g:airline#themes#arclight#palette.insert   = airline#themes#generate_color_map(s:InsertAZ, s:InsertBY, s:InsertCX)
+let g:airline#themes#arclight#palette.visual   = airline#themes#generate_color_map(s:VisualAZ, s:VisualBY, s:VisualCX)
+let g:airline#themes#arclight#palette.replace  = airline#themes#generate_color_map(s:ReplaceAZ, s:ReplaceBY, s:ReplaceCX)
+let g:airline#themes#arclight#palette.inactive = airline#themes#generate_color_map(s:InactiveAZ, s:InactiveBY, s:InactiveCX)
 
 " Highlight Filename With Modified Buffer
 let s:highlight = airline#themes#get_highlight('vimCommand')
-let g:airline#themes#dark#palette.normal_modified  = { 'airline_c': [ s:highlight[0] , '#050a14' , s:highlight[2] , 0  ] }
-let g:airline#themes#dark#palette.insert_modified  = copy(g:airline#themes#dark#palette.normal_modified)
-let g:airline#themes#dark#palette.visual_modified  = copy(g:airline#themes#dark#palette.normal_modified)
-let g:airline#themes#dark#palette.replace_modified = copy(g:airline#themes#dark#palette.normal_modified)
+let g:airline#themes#arclight#palette.normal_modified  = { 'airline_c': [ s:highlight[0] , '#050a14' , s:highlight[2] , 0  ] }
+let g:airline#themes#arclight#palette.insert_modified  = copy(g:airline#themes#arclight#palette.normal_modified)
+let g:airline#themes#arclight#palette.visual_modified  = copy(g:airline#themes#arclight#palette.normal_modified)
+let g:airline#themes#arclight#palette.replace_modified = copy(g:airline#themes#arclight#palette.normal_modified)
